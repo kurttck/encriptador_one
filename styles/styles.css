@@ -12,7 +12,7 @@ body {
 
 /* ------------------------------ HEADER ----------------------------- */
 
-header {
+.header {
   padding: 24px 0px 24px 16px;
   height: 96px;
 }
@@ -108,4 +108,34 @@ header {
 .mensaje__centro__contenido__mensaje2 {
   font-size: 16px;
   text-align: center;
+}
+
+/* ------------------------ RESPONSIVE --------------------------------- */
+
+/* ----------------- Tablet --------------------- */
+@media (min-width: 375px) {
+  .header {
+    padding: 73.42px 0px 116px 40px;
+    height: 96px;
+  }
+
+  .texto {
+    height: 712px;
+    padding: 56px 40px;
+  }
+
+  .buttons {
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .mensaje__centro {
+    width: 688px;
+    height: 133px;
+  }
+}
+
+/* ----------computadora------------------ */
+
+@media (min-width: 768px) {
 }
