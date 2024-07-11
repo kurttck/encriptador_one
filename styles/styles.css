@@ -13,19 +13,19 @@ body {
 /* ------------------------------ HEADER ----------------------------- */
 
 .header {
-  padding: 24px 0px 24px 16px;
-  height: 96px;
+  padding: 1.5rem 0rem 1.5rem 1rem;
+  height: 6rem;
 }
 
 /* --------------------------------- MAIN --------------------------------- */
 
 .texto {
-  height: 355px;
-  padding: 56px 16px;
+  height: 22.188rem;
+  padding: 3.5rem 1rem;
 }
 
 .texto__input {
-  font-size: 32px;
+  font-size: 2rem;
   font-family: "Inter", sans-serif;
   color: #0a3871;
   width: 100%;
@@ -37,11 +37,11 @@ body {
 }
 
 .indicacion {
-  padding: 16px;
+  padding: 1rem;
 }
 
 .indicacion p {
-  font-size: 12px;
+  font-size: 0.75rem;
   font-family: "Inter", sans-serif;
   color: #495057;
 }
@@ -50,63 +50,63 @@ body {
   display: flex;
   align-items: center;
   flex-direction: column;
-  gap: 24px;
+  gap: 1.5rem;
   font-family: "Inter", sans-serif;
-  font-size: 16px;
+  font-size: 1rem;
 }
 
 .button__encriptar {
   color: white;
   background-color: #0a3871;
-  width: 343px;
+  width: 21.438rem;
   text-align: center;
-  padding: 24px;
-  border-radius: 24px;
+  padding: 1.5rem;
+  border-radius: 1.5rem;
   text-decoration: none;
 }
 
 .button__desencriptar {
   color: #0a3871;
   background-color: transparent;
-  width: 343px;
+  width: 21.438rem;
   text-align: center;
-  padding: 24px;
+  padding: 1.5rem;
   border: 1px solid #0a3871;
-  border-radius: 24px;
+  border-radius: 1.5rem;
   text-decoration: none;
 }
 
 .mensaje {
-  margin: 64px 24px 40px 24px;
+  margin: 4rem 1.5rem 2.5rem 1.5rem;
   font-family: "Inter", sans-serif;
 }
 
 .mensaje__centro {
   background-color: white;
-  height: 186px;
-  width: 327px;
+  height: 11.625rem;
+  width: 20.438rem;
   display: flex;
   align-items: center;
   justify-content: center;
-  border-radius: 32px;
-  padding: 32px;
-  box-shadow: 0px 24px 32px rgba(0, 0, 0, 0.2);
+  border-radius: 2rem;
+  padding: 2rem;
+  box-shadow: 0rem 1.5rem 2rem rgba(0, 0, 0, 0.2);
 }
 
 .mensaje__centro__contenido {
   display: flex;
   flex-direction: column;
-  gap: 16px;
+  gap: 1rem;
 }
 
 .mensaje__centro__contenido__mensaje1 {
-  font-size: 24px;
+  font-size: 1.5rem;
   text-align: center;
   font-weight: bold;
 }
 
 .mensaje__centro__contenido__mensaje2 {
-  font-size: 16px;
+  font-size: 1rem;
   text-align: center;
 }
 
@@ -115,13 +115,13 @@ body {
 /* ----------------- Tablet --------------------- */
 @media (min-width: 375px) {
   .header {
-    padding: 73.42px 0px 116px 40px;
-    height: 96px;
+    padding: 4.5rem 0rem 7.25rem 2.5rem;
+    height: 6rem;
   }
 
   .texto {
-    height: 712px;
-    padding: 56px 40px;
+    height: 44.5rem;
+    padding: 3.5rem 2.5rem;
   }
 
   .buttons {
@@ -130,8 +130,8 @@ body {
   }
 
   .mensaje__centro {
-    width: 688px;
-    height: 133px;
+    width: 43rem;
+    height: 8.313rem;
   }
 }
 
