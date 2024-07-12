@@ -132,6 +132,7 @@ body {
   }
 
   .mensaje__centro {
+    padding: 2.5rem;
     width: auto;
     height: 8.313rem;
   }
