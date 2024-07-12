@@ -41,9 +41,15 @@ body {
 }
 
 .indicacion p {
+  display: flex;
+  align-items: center;
   font-size: 0.75rem;
   font-family: "Inter", sans-serif;
   color: #495057;
+}
+
+.indicacion p img {
+  margin-right: 8px;
 }
 
 .buttons {
@@ -123,6 +129,10 @@ body {
   .texto {
     height: 44.5rem;
     padding: 3.5rem 2.5rem;
+  }
+
+  .indicacion {
+    padding: 1rem 2.5rem;
   }
 
   .buttons {
