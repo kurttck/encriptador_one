@@ -110,7 +110,6 @@ body {
   border-radius: 2rem;
   padding: 2rem;
   box-shadow: 0rem 1.5rem 2rem rgba(0, 0, 0, 0.2);
-  overflow: auto;
 }
 
 .mensaje__centro__salida {
@@ -233,6 +232,7 @@ body {
 
   .mensaje__centro {
     height: 100%;
+    overflow: auto;
   }
 
   .mensaje__centro__contenido img {
