@@ -83,6 +83,18 @@ body {
   text-decoration: none;
 }
 
+.button__copiar {
+  color: #0a3871;
+  background-color: transparent;
+  width: 21.438rem;
+  text-align: center;
+  padding: 1.5rem;
+  border: 1px solid #0a3871;
+  border-radius: 1.5rem;
+  text-decoration: none;
+  display: none;
+}
+
 .mensaje {
   margin: 4rem 1.5rem 2.5rem 1.5rem;
   font-family: "Inter", sans-serif;
@@ -98,6 +110,16 @@ body {
   border-radius: 2rem;
   padding: 2rem;
   box-shadow: 0rem 1.5rem 2rem rgba(0, 0, 0, 0.2);
+  overflow: auto;
+}
+
+.mensaje__centro__salida {
+  color: #495057;
+  display: none;
+  font-size: 1.5rem;
+  font-family: "Inter", sans-serif;
+  width: 336px;
+  height: auto;
 }
 
 .mensaje__centro__contenido {
@@ -216,7 +238,6 @@ body {
   .mensaje__centro__contenido img {
     width: 336px;
     height: 304px;
-
     display: block;
   }
 }

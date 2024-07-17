@@ -15,8 +15,8 @@
       </section>
       <section class="section2">
         <div class="texto">
-          <textarea name="" id="" class="texto__input">
- Ingrese el texto aquí</textarea
+          <textarea name="" id="text" class="texto__input">
+ grese el texto </textarea
           >
         </div>
         <div>
@@ -27,20 +27,33 @@
             </p>
           </div>
           <div class="buttons">
-            <a href="" class="button__encriptar">Encriptar</a>
-            <a href="" class="button__desencriptar">Desencriptar</a>
+            <a href="" class="button__encriptar" id="btn_encriptar"
+              >Encriptar</a
+            >
+            <a href="#" class="button__desencriptar" id="btn_desencriptar"
+              >Desencriptar</a
+            >
           </div>
         </div>
       </section>
       <section class="section3">
         <div class="mensaje">
-          <div class="mensaje__centro">
-            <div class="mensaje__centro__contenido">
-              <img src="assets/Muñeco.png" alt="Dibujo de busqueda" />
+          <div class="mensaje__centro" id="mensaje_centro">
+            <p class="mensaje__centro__salida" id="mensaje_salida"></p>
+            <a href="#" class="button__copiar" id="buttonCopy">Copiar</a>
+            <div
+              class="mensaje__centro__contenido"
+              id="mensaje__centro__contenido"
+            >
+              <img
+                src="assets/Muñeco.png"
+                alt="Dibujo de busqueda"
+                id="imagen"
+              />
               <p class="mensaje__centro__contenido__mensaje1">
                 Ningún mensaje fue encontrado
               </p>
-              <p class="mensaje__centro__contenido__mensaje2">
+              <p class="mensaje__centro__contenido__mensaje2" id="mensaje2">
                 Ingresa el texto que desees encriptar o desencriptar.
               </p>
             </div>
