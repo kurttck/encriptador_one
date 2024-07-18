@@ -68,6 +68,26 @@ function desencriptarText(sentence){
 }
 
 
+/* ------------------------------- BOTON COPIAR ----------------------------------------- */
+
+
+document.getElementById('buttonCopy').addEventListener('click', function(event){
+    event.preventDefault();
+    copyText();
+});
+
+function copyText(){
+    let text = document.getElementById('mensaje_salida').innerText;
+    navigator.clipboard.writeText(text)
+    .then(()=>{
+        alert('Texto copiado al portapapeles');
+    })
+    .catch(err =>{
+        console.error('Error al copiar el texto: ', err);
+    });
+}
+
+
 function modificarAreaDeSalida(){
     ocultarElemento('mensaje__centro__contenido');
 
