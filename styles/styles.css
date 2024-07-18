@@ -24,6 +24,10 @@ body {
   padding: 3.5rem 1rem;
 }
 
+.texto textarea::placeholder {
+  color: #0a3871;
+}
+
 .texto__input {
   font-size: 2rem;
   font-family: "Inter", sans-serif;
